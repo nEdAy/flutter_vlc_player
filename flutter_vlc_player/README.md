@@ -1,4 +1,8 @@
 #  VLC Player Plugin
+[![style: solid](https://img.shields.io/badge/style-solid-orange)](https://pub.dev/packages/solid_lints)
+[![flutter_vlc_player](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_badge?projectId=148)](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_url?projectId=148)
+
+
 A VLC-powered alternative to Flutter's video_player that supports iOS and Android.
 
 <div>
@@ -87,7 +91,6 @@ android {
    buildTypes {
       release {
          minifyEnabled true
-         useProguard true
          proguardFiles getDefaultProguardFile(
                  'proguard-android-optimize.txt'),
                  'proguard-rules.pro'
